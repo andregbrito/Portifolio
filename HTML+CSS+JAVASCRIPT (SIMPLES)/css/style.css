@@ -57,6 +57,7 @@ body{
 .sidebar.open .logo img{
     width: 200px;
     border-radius: 5px 90px 5px 90px;
+  
 }
 
 .sidebar .logo h3{
@@ -74,23 +75,28 @@ body{
     opacity: 1;
     transition: .4s;
     transition-delay: .5s;
+    
 
 
 }
-
 
 .sidebar .nav-title{
+    width: 120px;
     color: #dadada;
-    margin: 80px 0 20px;
+    margin: 36px 47px;
     pointer-events: none;
     opacity: 0;
-}
+    font-size: 13px;
+    font-variant: small-caps;
+    scale: 0;
+    justify-items: center;
 
+}
 .sidebar.open   .nav-title{
+   scale:1;
     opacity: 1;
     transition: .4s;
-    transition-delay: .2s;
-
+    transition-delay: .5s;
 }
 
 .sidebar nav{
@@ -109,8 +115,7 @@ body{
     padding: 0 16px;
     margin: 30px 0;
     color: #fff;
-    transition: .3s;
-    
+    transition: .4s linear;    
 }
 .sidebar  section{ 
     height: 50px;
@@ -121,14 +126,9 @@ body{
     justify-content: space-around;
 }
     
-    
-   
-    
-    
-
 .sidebar.open section{
     opacity: 1;
-    transition: .1s;
+    transition: .6s linear;
     transition-delay: .7s;
     
 
@@ -201,9 +201,6 @@ body{
 
 }
 
-.sidebar.open .toggle{
-    transform: translateY(45px) ;
-}
 .sidebar.open .toggle i{
     transition: .4s linear;
 }
@@ -211,5 +208,40 @@ body{
 .sidebar.open .toggle i{
     transform: rotateY(180deg);
 }
+
+.sidebar .dark{
+    cursor: pointer;
+    position: absolute;
+    color: #fff;
+    top: 80px;
+    right: -33px;
+    font-size: 50px;
+    line-height: 50%;
+    text-align: center;
+    border-radius: 50px;
+    padding: 2px 0 2px 2px;
+    background: linear-gradient(
+        90deg,
+        transparent 50%,
+        rgba(10, 10, 10, .65)
+    );
+   
+  
+}
+
+
+.sidebar.open .toggle i{
+    transform: rotateY(180deg);
+}
+
+  
+
+
+
+
+
+
+
+
 
 

@@ -83,42 +83,16 @@
 
 
 .MidBox{
-   
-    
-  
     width: 170px;
     height: 35%;
-
-
-    
-
-
-
-    
 }
+
 
 .nav-item{
-
-    
-    
-    
-    display: flex;
-    justify-content: space-around;
-    padding: 21px;
-    
-    font-size: 45px;
-    color: #fff; 
-    
-    cursor: pointer;
-
-    border-radius: 100px;
-
+    position: flex;
+    border: 1px solid white;
 }
 
-.nav-item:hover{
-    /* background: rgba(255, 255, 255, .1) */
-    background: rgba(255, 255, 255, 0.1)
-}
 
 
 

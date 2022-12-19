@@ -4,6 +4,19 @@ import htmlImg  from "../../assets/img/html.png"
 import cssImg from "../../assets/img/css.png"
 import reactImg  from "../../assets/img/react.png"
 
+function Toggle(){
+const element = document.getElementsByClassName('Toggle');
+element.addEventListener('click', ola);
+
+
+
+}
+function h1(){
+console.log("olá")
+}
+
+
+
 
 
 export function ContainerMenu(){

@@ -9,12 +9,17 @@ import reactImg  from "../../assets/img/react.png"
 export function ContainerMenu(){
     return(
         <div className="Sideback">
-            <div className="TopBox">
+
+          <dir className="Toggle">
+            <i className="bx bx-chevron-right"></i>
+          </dir>
+
+          <div className="TopBox">
               <img src={avatarImg} alt="Avatar" />
               <h1>André Brito</h1>
-            </div>
+          </div>
 
-            <div className="MidBox">
+          <div className="MidBox">
             <ul>
               <li className="nav-item">
                 <i className="bx bxl-linkedin"></i>
@@ -26,16 +31,16 @@ export function ContainerMenu(){
                 <i className="bx bxl-whatsapp"></i>
               </li>
             </ul>
-            </div>
+          </div>
 
-            <div className="BottomBox">
+          <div className="BottomBox">
               <section className="stacks">
               <img src= {htmlImg} alt="HTML5 Logo" />
               <img src= {cssImg} alt="CSS6 Logo" />
               <img src= {reactImg} alt="React Logo" />
 
               </section>
-            </div>
+          </div>
         </div>
 
     );

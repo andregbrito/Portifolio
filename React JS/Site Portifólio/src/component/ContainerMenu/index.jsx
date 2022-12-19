@@ -21,14 +21,21 @@ export function ContainerMenu(){
 
           <div className="MidBox">
             <ul>
+              
               <li className="nav-item">
-                <i className="bx bxl-linkedin"></i>
+                <a href="https://www.linkedin.com/in/andrégbrito/">
+                  <i className="bx bxl-linkedin"></i>
+                </a>
               </li>
               <li className="nav-item">
+              <a href="https://github.com/andregbrito">
                 <i className="bx bxl-github"></i>
+              </a>  
               </li>
               <li className="nav-item">
+              <a href="https://api.whatsapp.com/send/?phone=5511982196279&text&type=phone_number&app_absent=0">
                 <i className="bx bxl-whatsapp"></i>
+              </a>
               </li>
             </ul>
           </div>
